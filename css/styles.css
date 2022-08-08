@@ -1,0 +1,198 @@
+#title{
+  background-color: #990D35;
+
+}
+
+h1{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height:2;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  filter: drop-shadow(10px 10px 10px #282829);
+
+
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* Navigation-Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem ;
+  font-weight: bold;
+  filter: drop-shadow(10px 10px 10px #282829);
+}
+.nav-item{
+  padding: 0 18px;
+  filter: drop-shadow(10px 10px 10px #282829);
+
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  filter: drop-shadow(10px 10px 10px #282829);
+
+}
+.dow-apple{
+  margin-right: 20px;
+}
+.dow{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* title image */
+
+.iphone-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  left: 80px;
+  filter: drop-shadow(10px 10px 10px #282829);
+  /* position: relative; */
+  /* z-index: -1; */
+}
+#features{
+  text-align: center;
+  padding: 150px;
+  background-color: #FFFFFF ;
+  position: relative;
+  z-index: 1;
+}
+h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 25px;
+}
+
+p{
+  font-size: 15px;
+  color: #8f8f8f;
+}
+.myfe{
+
+}
+.icons{
+  color: #ef8172;
+  padding: 30px;
+  font-size: 4.5rem;
+}
+.icons:hover{
+  color: #ff4c68;
+}
+
+@media (max-width:1028px) {
+  .dow{
+    text-align: center;
+  }
+
+}
+
+/* testimonical secrion */
+h2{
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+#testimonials{
+
+  text-align: center;
+  background-color:  #D52941;
+  color: white;
+
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+#press{
+  background-color:  #D52941;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.carousel-item{
+  padding: 12% 18%;
+}
+.press-logo{
+  width: 12%;
+  margin: 20px 20px 50px;
+  filter: drop-shadow(10px 10px 10px black);
+
+}
+#pricing{
+  text-align: center;
+  padding: 80px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.pric{
+  padding: 3% 2%;
+
+}
+@media (max-width:1028px){
+  .iphone-image{
+    transform: rotate(0);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    /* position: static; */
+  }
+}
+#cta{
+  background-color: #990D35;
+  color: white;
+  padding: 10% 15% ;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+
+}
+.dow1{
+  margin: 40px 20px ;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.last{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer{
+  text-align: center;
+  padding-top: 10%;
+  background-color: #FFF8E8;
+}
+.lp{
+  margin: 0 15px 10px 15px;
+  font-size: 25px;
+
+
+}
+.fblogo{
+  color: #3b5998;
+  filter: drop-shadow(10px 10px 10px #282829);
+
+}
+.twitterlogo{
+  color: #00acee;
+  filter: drop-shadow(10px 10px 10px #282829);
+}
+.linkedinlogo{
+  color:  #0072b1;
+  filter: drop-shadow(10px 10px 10px #282829);
+}
+.insta{
+  color: red;
+  filter: drop-shadow(10px 10px 10px #282829);
+}
+.insta:hover{
+  color:  #ef8172;
+}
+.lp:hover{
+  color: black ;
+
+}
